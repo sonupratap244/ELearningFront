@@ -11,8 +11,8 @@ const Footer = () => {
     <footer>
        <div className="footer-content">
         <p>
-            &copy; 2024 Your Study-Zone Platform. All rights reserved. <br/>
-            Made with ❤ <a href="">Son Pratap</a>
+            &copy; 2024 Vinayak Study-Zone Platform. All rights reserved. <br/>
+            Study with ❤ <a href="">Vinay Sir</a>
         </p>
         <div className="social-links">
             <a href="https://t.me/hypnosis_039"><FaTelegram/></a>

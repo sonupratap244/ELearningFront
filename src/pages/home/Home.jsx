@@ -18,7 +18,7 @@ const Home = () => {
       <div className="home">
         <div className="home-content">
           <h1 data-aos="fade-down"
-     data-aos-easing="linear" data-aos-duration="1500">Welcome to our Study-Zone Platform</h1>
+     data-aos-easing="linear" data-aos-duration="1500">Welcome to Our Vinayak Study-Zone.</h1>
           <h2 data-aos="fade-up"
      data-aos-duration="3000">Unlock Your Career Potential by <br/>Learning Any Skill</h2>
           <p>Start Your Online Tutoring or Consultation Marketplace with Study-Zone.</p>

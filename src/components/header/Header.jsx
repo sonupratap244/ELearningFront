@@ -4,6 +4,7 @@
 import { useState } from "react";
 import "./Header.css";
 import { Link } from 'react-router-dom';
+import logo from './images/vsg.png';
 
 const Header = ({ isAuth }) => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -15,7 +16,7 @@ const Header = ({ isAuth }) => {
   return (
     <header>
       <div className="container">
-        <div className="logo">Study-Zone</div>
+      <div className="logo"><img src={logo} alt="Logo" /></div>
         <button className="menu-toggle" onClick={toggleMenu}>
           {menuOpen ? '✖' : '☰'}
         </button>
@@ -25,9 +26,9 @@ const Header = ({ isAuth }) => {
           <Link to={"/about"} onClick={() => setMenuOpen(false)}>About</Link>
           <Link to={"/contect"} onClick={() => setMenuOpen(false)}>Contact</Link>
           {isAuth ? (
-            <Link to={"/account"} onClick={() => setMenuOpen(false)}>Account</Link>
+            <Link to={"/account"} onClick={() => setMenuOpen(false)} >Account</Link>
           ) : (
-            <Link to={"/login"} onClick={() => setMenuOpen(false)}>Login</Link>
+            <Link to={"/login"} onClick={() => setMenuOpen(false)} style={{ border: '1px solid white', borderRadius: '5px', padding: '5px'}}>Login</Link>
           )}
         </nav>
       </div>

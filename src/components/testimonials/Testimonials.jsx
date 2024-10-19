@@ -1,8 +1,9 @@
 //import React from 'react'
 import "./Testimonials.css";
-import image from "./Image/image.jpg"
-import photo from "./Image/photo.jpg";
-import img from "./Image/img.jpg";
+import anuska from "./Image/anuska.jpg"
+import vansh from "./Image/vansh.jpg";
+import divyanshi from "./Image/divyanshi.jpg";
+import img1 from "./Image/img1.jpg";
 
 
 const Testimonials = () => {
@@ -10,49 +11,48 @@ const Testimonials = () => {
     const testimonialsData = [
         {
           id: 1,
-          name: "Sonu Patel",
+          name: "Anushka",
           position: "Student",
           message:
             "This platform helped me learn so effectively. The courses are amazing and the instructors are top-notch.",
           
-          image: image,
+          image: anuska,
         },
         {
 
           id: 2,
-          name: "Vipul Sharma",
+          name: "Vansh yadav",
           position: "Student",
           message:
             "I've learned more here than in any other place. The interactive lessons and quizzes make learning enjoyable.",
           image:
-            img,
+            vansh,
         },
         {
           id: 3,
-          name: "Pranshu ",
+          name: "Divyanshi",
           position: "Student",
           message:
           "The instructors are very knowledgeable, and the platform's structure is easy to follow.",
           image:
-            "https://th.bing.com/th?q=Current+Bachelor&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.3&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247",
+            divyanshi,
         },
         {
           id: 4,
-          name: "Rohit Gangwar",
+          name: "Aman Kumar",
           position: "Student",
           message:
             "I love the interactive courses! They really made learning so much more engaging and enjoyable.",
           image:
-            photo,
+            img1,
         },
       ];
 
   return (
     <section className="testimonials"> 
       <h2 data-aos="fade-down">What our student say</h2>
-      <div className="testimonials-cards"  data-aos="flip-down"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
+      <div className="testimonials-cards"   data-aos="zoom-in"
+     data-aos-duration="3000">
           {
             testimonialsData.map((e)=>(
                 <div className="testimonial-card" key={e.id}>
