@@ -17,19 +17,19 @@ const Contact = () => {
                 <h2>Our Contact Methods</h2>
                 <p>Reach out through any of the platforms below:</p>
                 <div className="contact-icons">
-                    <a href="https://bit.ly/3zNKTVw" target="_blank" rel="noopener noreferrer" className="icon whatsapp">
+                    <a href="https://wa.me/919720976062" target="_blank" rel="noopener noreferrer" className="icon whatsapp">
                         <FaWhatsapp /> WhatsApp
                     </a>
-                    <a href="https://t.me/hypnosis_039" target="_blank" rel="noopener noreferrer" className="icon telegram">
+                    <a href="https://telegram.me/vinayakstudyzone97" target="_blank" rel="noopener noreferrer" className="icon telegram">
                         <FaTelegram /> Telegram
                     </a>
-                    <a href="https://www.instagram.com/_hypnosis_039" target="_blank" rel="noopener noreferrer" className="icon instagram">
+                    <a href="http://www.instagram.co/vinayakstudyzone" target="_blank" rel="noopener noreferrer" className="icon instagram">
                         <FaInstagram /> Instagram
                     </a>
-                    <a href="https://www.facebook.com/yourusername" target="_blank" rel="noopener noreferrer" className="icon facebook">
+                    <a href="https://www.facebook.com/vinayakstudyzone" target="_blank" rel="noopener noreferrer" className="icon facebook">
                         <FaFacebook /> Facebook
                     </a>
-                    <a href="mailto:sonpratap244@gmail.com" className="icon email">
+                    <a href="mailto:vinayrajput2110@gmail.com" className="icon email">
                         <FaEnvelope /> Email
                     </a>
                 </div>
@@ -38,9 +38,9 @@ const Contact = () => {
             {/* Map Section */}
             <section className="map-section">
                 <div className="map-container">
-                    <iframe
+                <iframe
                         title="Google Map"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.8488029729297!2d77.44338137429361!3d28.634293284002876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cee22c60837b7%3A0x7c35343eceb7bde0!2sABES%20Engineering%20College!5e0!3m2!1sen!2sin!4v1728718946879!5m2!1sen!2sin"
+                       src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3571.2425422897145!2d80.28286227542455!3d26.480134476907782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjbCsDI4JzQ4LjUiTiA4MMKwMTcnMDcuNiJF!5e0!3m2!1sen!2sin!4v1729403355244!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
                         width="100%"
                         height="450"
                         style={{ border: 0 }}
